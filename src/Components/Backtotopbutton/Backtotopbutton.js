@@ -23,7 +23,7 @@ const Backtotopbutton = () => {
 
   return (
     <div>
-      {backtotop && <img className="backtotopbutton" onClick={scrollUp} src={up}></img>}
+      {backtotop && <img className="backtotopbutton" alt="arrow.svg" onClick={scrollUp} src={up}></img>}
     </div>
   );
 };

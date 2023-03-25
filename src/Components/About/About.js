@@ -15,7 +15,7 @@ const About = () => {
       <div className="about-left">
         <div className="section">
           <div className="underphoto"></div>
-          <img src={me} alt=""></img>
+          <img src={me} alt="photo-of-me"></img>
         </div>
       </div>
       <div className="about-right">
@@ -25,10 +25,10 @@ const About = () => {
             <>
               - Fourth year student at the Technical University of Cluj-Napoca
             </>
-            <img src={graduate} alt="" className="links"></img>
+            <img src={graduate} alt="graduate" className="links"></img>
           </div>
           <a download="" href={cv} className="button-cv">
-            <h2>Download CV</h2> <img src={cvsvg} className="links"></img>
+            <h2>Download CV</h2> <img src={cvsvg} alt="cv.svg" className="links"></img>
           </a>
           <div className="links-container">
             <a
@@ -36,21 +36,21 @@ const About = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={instagram} alt="" className="links"></img>
+              <img src={instagram} alt="ig.svg" className="links"></img>
             </a>
             <a
               href="https://www.linkedin.com/in/brujan/"
               target="_blank"
               rel="noreferrer"
             >
-              <img src={linkedin} alt="" className="links"></img>
+              <img src={linkedin} alt="linkedin.svg" className="links"></img>
             </a>
             <a
               href="https://github.com/brujan75"
               target="_blank"
               rel="noreferrer"
             >
-              <img src={github} alt="" className="links"></img>
+              <img src={github} alt="github.svg" className="links"></img>
             </a>
           </div>
         </div>

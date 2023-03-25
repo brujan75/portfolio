@@ -43,15 +43,15 @@ const Contact = () => {
           <h2 data-value="Let's discuss our first project" className="c-title">Let's discuss our first project</h2>
           <div className="c-info">
             <div className="c-info-item">
-              <img src={phone} alt="" className="c-icon" />
+              <img src={phone} alt="phone" className="c-icon" />
               +40761875198
             </div>
             <div className="c-info-item">
-              <img src={email} alt="" className="c-icon" />
+              <img src={email} alt="email" className="c-icon" />
               andreibrujique@yahoo.com
             </div>
             <div className="c-info-item">
-              <img src={address} alt="" className="c-icon" />
+              <img src={address} alt="address" className="c-icon" />
               Cluj-Napoca
             </div>
           </div>
@@ -68,7 +68,7 @@ const Contact = () => {
             <textarea rows="5" placeholder="Message" name="message" required />
             <button className="submit">
               <p>Hit me up</p> 
-              <img src={airplane} alt="" className="airplane"></img>
+              <img src={airplane} alt="airplane" className="airplane"></img>
             </button>
             {done && Fireworks()}
           </form>

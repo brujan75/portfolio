@@ -24,18 +24,18 @@ const Skills = () => {
           <h2>Frontend Developer</h2>
         </div> */}
         <div className="skills-card-left-and-right"> <div className="skills-card-left">
-          <div className="skills-card-element"><img src={html} className="skill-svg"></img><p2>HTML</p2></div>
-          <div className="skills-card-element"><img src={css} className="skill-svg"></img><p2>CSS</p2></div>
-          <div className="skills-card-element"><img src={sass} className="skill-svg"></img><p2>SASS</p2></div>
-          <div className="skills-card-element"><img src={js} className="skill-svg"></img><p2>JAVASCRIPT</p2></div>
-        <div className="skills-card-element"><img src={jq} className="skill-svg"></img><p2>JQUERY</p2></div>
+          <div className="skills-card-element"><img alt="skill-svg" src={html} className="skill-svg"></img><p2>HTML</p2></div>
+          <div className="skills-card-element"><img alt="skill-svg" src={css} className="skill-svg"></img><p2>CSS</p2></div>
+          <div className="skills-card-element"><img alt="skill-svg" src={sass} className="skill-svg"></img><p2>SASS</p2></div>
+          <div className="skills-card-element"><img alt="skill-svg" src={js} className="skill-svg"></img><p2>JAVASCRIPT</p2></div>
+        <div className="skills-card-element"><img alt="skill-svg" src={jq} className="skill-svg"></img><p2>JQUERY</p2></div>
         </div>
         <div className="skills-card-right">
-          <div className="skills-card-element"><img src={git} className="skill-svg"></img><p2>GIT</p2></div>
-          <div className="skills-card-element"><img src={react} className="skill-svg"></img><p2>REACT</p2></div>
-          <div className="skills-card-element"><img src={nodejs} className="skill-svg"></img><p2>NODEJS</p2></div>
-          <div className="skills-card-element"><img src={express} className="skill-svg"></img><p2>EXPRESS</p2></div>
-          <div className="skills-card-element"><img src={mongodb} className="skill-svg"></img><p2>MONGODB</p2></div>
+          <div className="skills-card-element"><img alt="skill-svg" src={git} className="skill-svg"></img><p2>GIT</p2></div>
+          <div className="skills-card-element"><img alt="skill-svg" src={react} className="skill-svg"></img><p2>REACT</p2></div>
+          <div className="skills-card-element"><img alt="skill-svg" src={nodejs} className="skill-svg"></img><p2>NODEJS</p2></div>
+          <div className="skills-card-element"><img alt="skill-svg" src={express} className="skill-svg"></img><p2>EXPRESS</p2></div>
+          <div className="skills-card-element"><img alt="skill-svg" src={mongodb} className="skill-svg"></img><p2>MONGODB</p2></div>
         </div>
         </div>
       </div>

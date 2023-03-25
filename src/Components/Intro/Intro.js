@@ -10,7 +10,7 @@ const Intro = () => {
     <div className="intro">
       <div className="scroll">
         scroll down
-        <img src={mouse} alt="" className="mouse"></img>
+        <img src={mouse} alt="mouse.svg" className="mouse"></img>
       </div>
       <div className="info">
         <div className="name">
@@ -27,11 +27,11 @@ const Intro = () => {
 
         <div className="person">
           <div className="person-container">
-            <img className="person-circle" src={mebg} />
+            <img className="person-circle" src={mebg} alt="background" />
             <img className="person-img" src={me} alt="photo of me ;)" />
           </div>
           <div className="click-me">
-            <img src={click} />
+            <img src={click} alt="click-sign"/>
           </div>
         </div>
       </div>
