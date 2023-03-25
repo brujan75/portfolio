@@ -9,14 +9,37 @@ import Skills from "./Components/Skills/Skills";
 import Backtotopbutton from "./Components/Backtotopbutton/Backtotopbutton";
 
 function App() {
+
   const [loading, setLoading] = useState(false);
   useEffect(() => {
+
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
     }, 1);
+
+    const handleContextMenu = (e) => {
+      e.preventDefault()
+    }
+    document.addEventListener("contextmenu", handleContextMenu)
+    return () => {
+      document.removeEventListener("contextmenu", handleContextMenu)
+    }
+
   }, []);
 
+
+  // useEffect(() => {
+  //   const handleContextMenu = (e) => {
+  //     e.preventDefault()
+  //   }
+
+  //   document.addEventListener("contextmenu", handleContextMenu)
+
+  //   return () => {
+  //     document.removeEventListener("contextmenu", handleContextMenu)
+  //   }
+  // }, [])
   return (
     <>
       {loading ? (

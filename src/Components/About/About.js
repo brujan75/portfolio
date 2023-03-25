@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../About/About.css";
-import me from "../../assets/me-about.jpeg";
+import me from "../../assets/me-about.webp";
 import github from "../../assets/github.svg";
 import instagram from "../../assets/instagram.svg";
 import linkedin from "../../assets/linkedin.svg";
